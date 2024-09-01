@@ -9,6 +9,7 @@ import {
   MagnifyingGlassIcon,
 } from 'react-native-heroicons/outline'
 import Categories from '../Components/Categories'
+import FeaturedRow from '../Components/FeaturedRow'
 
 export default function HomeScreen() {
   const navigation = useNavigation()
@@ -36,7 +37,7 @@ export default function HomeScreen() {
             Current Location <ChevronDownIcon size={20} color='#00CCBB' />
           </Text>
         </View>
-        <UserIcon size={35} color='#00CCBB' />
+        <UserIcon size={30} color='#00CCBB' />
       </View>
 
       {/* Search */}
@@ -48,15 +49,30 @@ export default function HomeScreen() {
             keyboardType='default'
           />
         </View>
-        <AdjustmentsHorizontalIcon size={20} color='#00CCBB' />
+        <AdjustmentsHorizontalIcon size={25} color='#00CCBB' />
       </View>
 
       {/* Body */}
-      <ScrollView className='bg-gray-100'>
+      <ScrollView className='bg-gray-100 mb-[8rem]'>
         {/* Categories */}
         <Categories />
 
         {/* Featured Rows */}
+        <FeaturedRow
+          id='123'
+          title='Featured'
+          description='Paid placements for our partners'
+        />
+        <FeaturedRow
+          id='1234'
+          title='Tasty discount'
+          description='Everyone has been enjoying this discount'
+        />
+        <FeaturedRow
+          id='12345'
+          title='Offers near you'
+          description='Why not support your local restaurants'
+        />
       </ScrollView>
     </SafeAreaView>
   )
