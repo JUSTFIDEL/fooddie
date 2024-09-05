@@ -24,7 +24,7 @@ export default function FeaturedRow({ title, description }) {
         {/* Restaurants */}
         <RestaurantCard
           id='123'
-          imgUrl='https://in.mt/6Jc'
+          imgUrl='https://shorturl.at/fUeW3'
           title='Egusi Soup'
           rating={4.5}
           genre='Soup'
@@ -36,7 +36,7 @@ export default function FeaturedRow({ title, description }) {
         />
         <RestaurantCard
           id='123'
-          imgUrl='https://in.mt/6Jd'
+          imgUrl='https://shorturl.at/KWCtW'
           title='Rice'
           rating={4.5}
           genre='Rice'
@@ -48,7 +48,7 @@ export default function FeaturedRow({ title, description }) {
         />
         <RestaurantCard
           id='123'
-          imgUrl='https://in.mt/6Je'
+          imgUrl='https://shorturl.at/pNDok'
           title='Salad'
           rating={4.5}
           genre='Salad'
@@ -60,7 +60,7 @@ export default function FeaturedRow({ title, description }) {
         />
         <RestaurantCard
           id='123'
-          imgUrl='https://in.mt/6Jc'
+          imgUrl='https://shorturl.at/7qsan'
           title='Afang Soup'
           rating={4.5}
           genre='Soup'
@@ -72,7 +72,7 @@ export default function FeaturedRow({ title, description }) {
         />
         <RestaurantCard
           id='1234'
-          imgUrl='https://in.mt/6Jd'
+          imgUrl='https://shorturl.at/Yjr5w'
           title='Coconut Rice'
           rating={4.5}
           genre='Rice'

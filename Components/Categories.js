@@ -12,12 +12,12 @@ export default function Categories() {
       horizontal
       showsHorizontalScrollIndicator={false}
     >
-      <CategoryCard imgUrl='https://in.mt/6Jc' title='Egusi' />
-      <CategoryCard imgUrl='https://in.mt/6Jd' title='Jollof' />
-      <CategoryCard imgUrl='https://in.mt/6Je' title='Afang' />
-      <CategoryCard imgUrl='https://in.mt/6Jc' title='Egusi' />
-      <CategoryCard imgUrl='https://in.mt/6Jd' title='Jollof' />
-      <CategoryCard imgUrl='https://in.mt/6Je' title='Afang' />
+      <CategoryCard imgUrl='https://shorturl.at/fUeW3' title='Egusi' />
+      <CategoryCard imgUrl='https://shorturl.at/KWCtW' title='Jollof' />
+      <CategoryCard imgUrl='https://shorturl.at/7qsan' title='Afang' />
+      <CategoryCard imgUrl='https://shorturl.at/fUeW3' title='Egusi' />
+      <CategoryCard imgUrl='https://shorturl.at/KWCtW' title='Jollof' />
+      <CategoryCard imgUrl='https://shorturl.at/7qsan' title='Afang' />
     </ScrollView>
   )
 }
